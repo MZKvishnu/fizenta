@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   # Improve Color Scheme
 
@@ -9,3 +10,6 @@
 
   Run `npm run dev` to start the development server.
   
+=======
+# GLOBEL_MAP_MARKER
+>>>>>>> e77bbaaa6823b0fbe24442e084688593c41189ce
