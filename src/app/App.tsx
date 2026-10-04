@@ -352,22 +352,22 @@ export default function App() {
           </div>
 
           {/* Right — hero image */}
-          <div className="relative hidden lg:block">
-            <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#FFF0E8] to-[#EBF1FA] -z-10 translate-x-4 translate-y-4" />
-            <div className="relative rounded-3xl overflow-hidden bg-white aspect-[4/3] flex items-center justify-center">
+          <div className="relative block mt-8 lg:mt-0">
+            <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-[#FFF0E8] to-[#EBF1FA] -z-10 translate-x-3 translate-y-3 sm:translate-x-4 sm:translate-y-4" />
+            <div className="relative rounded-3xl overflow-hidden bg-white aspect-[4/3] flex items-center justify-center shadow-sm">
               <img
                 src={fixantaboy}
                 alt="Professional handyman at work"
                 className="w-full h-full object-contain"
               />
               {/* Floating card */}
-              <div className="absolute bottom-6 left-6 bg-white rounded-2xl px-5 py-4 shadow-lg flex items-center gap-4">
-                <div className="w-10 h-10 rounded-xl bg-[#FFF0E8] flex items-center justify-center">
-                  <Star className="w-5 h-5 text-[#D94F0D] fill-[#D94F0D]" />
+              <div className="absolute bottom-4 left-4 sm:bottom-6 sm:left-6 bg-white/95 backdrop-blur-sm rounded-2xl px-4 py-3 sm:px-5 sm:py-4 shadow-lg flex items-center gap-3 sm:gap-4 border border-[rgba(26,23,20,0.06)]">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#FFF0E8] flex items-center justify-center shrink-0">
+                  <Star className="w-4 h-4 sm:w-5 sm:h-5 text-[#D94F0D] fill-[#D94F0D]" />
                 </div>
                 <div>
-                  <p className="text-sm font-bold text-[var(--text-blur)]">i am here</p>
-                  <p className="text-xs text-[#6B6458]">We are here to help </p>
+                  <p className="text-xs sm:text-sm font-bold text-[var(--text-blur)]">i am here</p>
+                  <p className="text-[11px] sm:text-xs text-[#6B6458]">We are here to help </p>
                 </div>
               </div>
             </div>
