@@ -237,11 +237,10 @@ export default function App() {
                   e.preventDefault();
                   scrollToSection(link);
                 }}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-150 ${
-                  i === 0
-                    ? "text-[var(--text-orange)] bg-[#FFF0E8]"
-                    : "text-[#6B6458] hover:text-[var(--text-blur)] hover:bg-[#F7F5F0]"
-                }`}
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors duration-150 ${i === 0
+                  ? "text-[var(--text-orange)] bg-[#FFF0E8]"
+                  : "text-[#6B6458] hover:text-[var(--text-blur)] hover:bg-[#F7F5F0]"
+                  }`}
               >
                 {link}
               </a>
@@ -416,11 +415,10 @@ export default function App() {
             <button
               key={tab}
               onClick={() => setActiveTab(tab)}
-              className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-150 ${
-                activeTab === tab
-                  ? "bg-[#D94F0D] text-white shadow-sm"
-                  : "bg-white text-[#6B6458] border border-[rgba(26,23,20,0.10)] hover:border-[#D94F0D]/30 hover:text-[var(--text-blur)]"
-              }`}
+              className={`px-5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-150 ${activeTab === tab
+                ? "bg-[#D94F0D] text-white shadow-sm"
+                : "bg-white text-[#6B6458] border border-[rgba(26,23,20,0.10)] hover:border-[#D94F0D]/30 hover:text-[var(--text-blur)]"
+                }`}
             >
               {tab}
             </button>
@@ -447,7 +445,7 @@ export default function App() {
             Why Choose Fixenta ?
           </h2>
           <p className="text-[#bababa] text-sm sm:text-base max-w-xl mx-auto">
-           We deliver exceptional service because your home and your time deserve the very best.
+            We deliver exceptional service because your home and your time deserve the very best.
           </p>
         </div>
 
@@ -589,7 +587,7 @@ export default function App() {
               role: "Startup Founder",
               text: "We used the home cleaning service, and the house looked fresh and spotless. The team was friendly and professional.",
               rating: 5,
-              avatar: '/avatars/user3.jpeg', 
+              avatar: '/avatars/user3.jpeg',
             },
           ].map((t) => (
             <div
@@ -713,7 +711,7 @@ export default function App() {
                 </li>
                 <li className="flex items-start gap-3">
                   <Mail className="w-4 h-4 text-[var(--texBottom)] mt-0.5 shrink-0" />
-                  <span className="text-xs sm:text-sm text-[var(--texBottom)]"> hello@fixenta.in</span>
+                  <span className="text-xs sm:text-sm text-[var(--texBottom)]"> Ig: @fixenta.india</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <MapPin className="w-4 h-4 text-[var(--texBottom)] mt-0.5 shrink-0" />
